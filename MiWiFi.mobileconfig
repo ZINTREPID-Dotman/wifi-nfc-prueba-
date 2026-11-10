@@ -1,0 +1,69 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+    <key>PayloadType</key>
+    <string>Configuration</string>
+
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+
+    <key>PayloadIdentifier</key>
+    <string>com.zintrepid.wifi.guest</string>
+
+    <key>PayloadUUID</key>
+    <string>8F7B9D21-6C43-4A85-9E12-7B3D5F901246</string>
+
+    <key>PayloadDisplayName</key>
+    <string>Wi-Fi Mi Casa</string>
+
+    <key>PayloadDescription</key>
+    <string>Perfil para conectar a la red Wi-Fi de invitados</string>
+
+    <key>PayloadOrganization</key>
+    <string>Mi Casa</string>
+
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+
+            <key>PayloadType</key>
+            <string>com.apple.wifi.managed</string>
+
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+
+            <key>PayloadIdentifier</key>
+            <string>com.zintrepid.wifi.guest.network</string>
+
+            <key>PayloadUUID</key>
+            <string>3A9E6C51-2D84-4F70-A135-8B6D2E907C42</string>
+
+            <key>PayloadDisplayName</key>
+            <string>Mi Wi-Fi</string>
+
+            <key>SSID_STR</key>
+            <string>Mi WiFi</string>
+
+            <key>AutoJoin</key>
+            <true/>
+
+            <key>HIDDEN_NETWORK</key>
+            <false/>
+
+            <key>EncryptionType</key>
+            <string>WPA</string>
+
+            <key>Password</key>
+            <string>TQ3EcGsYxs</string>
+
+        </dict>
+    </array>
+
+</dict>
+</plist>
